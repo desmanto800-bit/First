@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang='id'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
-<title>susan-birthday.com - Selamat Ulang Tahun Susan</title>
+<title>Selamat Ulang Tahun Susan</title>
 <link rel='preconnect' href='https://fonts.googleapis.com'>
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
 <link href='https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap' rel='stylesheet'>
@@ -72,7 +72,7 @@ body.shake{animation:goyangLayar .5s cubic-bezier(.36,.07,.19,.97) both}
 </style></head><body>
 <div id='sky'></div><canvas id='fireCanvas'></canvas>
 <button id='musicToggle'>🔊</button>
-<div class='card'><h1>🎂 susan-birthday.com 🎉</h1>
+<div class='card'><h1>🎂 Selamat Ulang Tahun ke-24 Susan 🎉</h1>
 <div id='gerbang'>
   <div class='box'>
     <div class='statusbar'>9:41 &nbsp;•&nbsp; 📶 📡 🔋</div>
@@ -168,7 +168,7 @@ document.getElementById('pinKeypad').addEventListener('click',e=>{
 
 const muda=document.getElementById('muda'),tua=document.getElementById('tua'),area=document.getElementById('area');
 function kabur(){muda.style.transform='none';muda.style.left=Math.random()*(area.clientWidth-140)+'px';muda.style.top=(100+Math.random()*90)+'px';}
-muda.onmouseenter=kabur;muda.ontouchstart=e=>{e.preventDefault();kabur();};
+muda.onmouseenter=kabur;muda.ontouchstart=e=>{e.preventDefault();kabur();}
 function conf(){for(let i=0;i<100;i++){let d=document.createElement('div');d.className='conf';d.textContent='🎊';d.style.left=Math.random()*100+'vw';d.style.animationDelay=Math.random()*.5+'s';[...]
 function bal(){for(let i=0;i<10;i++){let b=document.createElement('div');b.className='balloon';b.textContent='🎈';b.style.left=Math.random()*100+'vw';b.style.animationDelay=i*.2+'s';document.bo[...]
 
